@@ -10,7 +10,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = "tastylog-reikoteramoto"
+    bucket  = "tastylog-reikoteramoto-1"
     key     = "tastylog-dev.tfstate"
     region  = "ap-northeast-1"
     profile = "terraform"
